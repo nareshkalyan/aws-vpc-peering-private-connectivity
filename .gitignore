@@ -1,0 +1,32 @@
+﻿# Private keys and certificates
+*.pem
+*.ppk
+*.key
+*.p12
+*.pfx
+
+# AWS credentials and environment secrets
+.aws/
+.env
+.env.*
+!.env.example
+credentials
+secrets.*
+
+# SSH configuration
+.ssh/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Editor settings
+.vscode/
+.idea/
